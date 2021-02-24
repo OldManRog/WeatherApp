@@ -17,5 +17,5 @@ async function getWeatherByLocation(location){
 getWeatherByLocation('waukegan')
 
 function kelvintoF(k) {
-    return 1.8 * (k - 273) + 32
+    return (1.8 * (k - 273) + 32).toFixed(2)
 }
